@@ -1,3 +1,11 @@
+@import url('../__lang-link/_status/header__lang-link_status_selected.css');
+
 .header__lang-link {
   color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 117%;
+  text-decoration: none;
+
 }

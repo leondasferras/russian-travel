@@ -6,5 +6,8 @@
 @import url('./__paragraph/place__paragraph.css');
 
 .place {
-  
+  display: grid;
+  grid-template-rows: min-content minmax(340px, 460px);
+  grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
+  gap: 48px 40px;
 }

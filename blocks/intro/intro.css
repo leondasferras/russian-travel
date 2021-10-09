@@ -3,5 +3,7 @@
 @import url('./__list/intro__list.css');
 
 .intro {
-  
+  max-width:calc(100% - 296px);
+  align-self: start;
+  padding-left: 148px;
 }
