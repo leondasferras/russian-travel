@@ -5,9 +5,27 @@
 
 
 .lead {
-  width: calc(100% - 296px);
+  max-width: calc(100% - 296px);
   display: flex;
   flex-direction: column;
   align-items: center;
 
 }
+
+
+@media screen and (max-width: 1280px) {
+
+  .lead {
+    max-width: calc(100% - 96px);
+  }
+}
+  
+
+
+@media screen and (max-width: 1024px) {
+
+  .lead {
+    max-width: 100%;
+  }
+}
+  

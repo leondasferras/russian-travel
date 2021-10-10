@@ -1,8 +1,8 @@
 .page {
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
   max-width: 1280px;
-  margin:222px auto 0;
+  margin:0 auto 0;
   font-family: Inter, Arial, sans-serif;
   color: white;
-
-
 }

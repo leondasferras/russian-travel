@@ -11,3 +11,12 @@
   text-transform: uppercase;
   align-self: flex-start;
 }
+
+
+@media screen and (max-width: 1024px) {
+
+  .lead__caption {
+    padding-left: 24px;;
+  }
+}
+  

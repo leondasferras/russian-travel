@@ -1,9 +1,27 @@
 @import url('./__title/intro__title.css');
 @import url('./__text/intro__text.css');
 @import url('./__list/intro__list.css');
+@import url('./__list-value/intro__list-value.css');
 
 .intro {
   max-width:calc(100% - 296px);
-  align-self: start;
   padding-left: 148px;
+  justify-self: start;
+}
+
+@media screen and (max-width: 1280px) {
+  .intro {
+    padding-left: 48px;
+  }
+  
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    min-width:calc(100% - 48px);
+    padding-left: 0;
+    justify-self: center;
+    
+  }
+  
 }
