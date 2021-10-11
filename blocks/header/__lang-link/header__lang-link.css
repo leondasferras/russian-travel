@@ -8,4 +8,17 @@
   line-height: 117%;
   text-decoration: none;
 
+
 }
+
+
+@media screen and (max-width: 768px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 111%;
+    
+  }
+  
+}
+
+

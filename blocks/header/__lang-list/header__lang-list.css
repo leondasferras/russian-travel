@@ -1,5 +1,6 @@
 
 .header__lang-list {
+
   padding: 0;
   margin: 0;
   list-style: none;
@@ -8,4 +9,9 @@
   grid-template-columns: 1fr 1fr;
   grid-auto-flow: row;
   gap: 18px;
+
+}
+
+@media screen and (max-width: 768px) {
+  
 }

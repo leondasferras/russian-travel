@@ -24,19 +24,14 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
-  .place {
-    gap: 48px 28px;
-  }
-}
-
 
 @media screen and (max-width: 768px) {
   .place {
     display: grid;
     grid-template-rows: min-content min-content  min-content min-content ;
-    grid-template-columns: minmax(320px, 320px);
+    grid-template-columns: minmax(320px, 100%);
     gap: 32px;
+
     
   }
   }
