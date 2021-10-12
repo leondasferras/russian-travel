@@ -1,5 +1,5 @@
 .lead__caption {
-  padding:0;
+  padding: 0;
   margin: 0;
   width: 160px;
   max-height: 14px;
@@ -12,17 +12,14 @@
   align-self: flex-start;
 }
 
-
-@media screen and (max-width: 1024px) {
-
+@media screen and (max-width: 1023px) {
   .lead__caption {
-    padding-left: 24px;;
+    padding-left: 24px;
   }
 }
-  
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .lead__caption {
-  padding-left: 16px;
+    padding-left: 16px;
   }
 }

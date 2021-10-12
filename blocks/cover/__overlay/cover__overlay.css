@@ -1,44 +1,39 @@
 .cover__overlay {
-    width: 100%;
-    text-decoration: none;
-    min-height: 740px;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url('../../../images/cover-trains.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index:22;
+  width: 100%;
+  text-decoration: none;
+  min-height: 740px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../../images/cover-trains.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 22;
 }
 
-
 .cover__overlay:before {
-    content:" ";
-    position:absolute;
-    top:0;
-    bottom: 0;
-    left:0;
-    right: 0;
-    display: block;
-    background-color: #2A2C2F;
-    opacity: .3;
-    transition: opacity 0.25s ease-in-out;
+  content: " ";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.cover__overlay:hover:before {
+  opacity: 0.8;
+  transition: opacity 0.25s ease-in-out;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover__overlay {
+    min-height: 62vw;
   }
-  
-  .cover__overlay:hover:before{
-    opacity: .8;
-    transition: opacity 0.25s ease-in-out;
-  
-  }
-
-  
-
-@media screen and (max-width: 1280px) {
-    .cover__overlay {
-     min-height: 62vw;
-
-    }
 }

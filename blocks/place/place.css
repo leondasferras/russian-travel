@@ -1,37 +1,34 @@
-@import url('./__title/place__title.css');
-@import url('./__website/place__website.css');
-@import url('./__url-heading/place__url-heading.css');
-@import url('./__link/place__link.css');
-@import url('./__image/place__image.css');
-@import url('./__paragraph/place__paragraph.css');
+@import url("./__title/place__title.css");
+@import url("./__website/place__website.css");
+@import url("./__url-heading/place__url-heading.css");
+@import url("./__link/place__link.css");
+@import url("./__image/place__image.css");
+@import url("./__paragraph/place__paragraph.css");
 
 .place {
   display: grid;
-  grid-template-rows: min-content minmax(340px, 460px);
+  grid-template-rows: min-content min-content;
   grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
   gap: 48px 40px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .place {
     gap: 48px 32px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .place {
     gap: 48px 28px;
   }
 }
 
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place {
     display: grid;
-    grid-template-rows: min-content min-content  min-content min-content ;
+    grid-template-rows: min-content min-content min-content min-content;
     grid-template-columns: minmax(320px, 100%);
     gap: 32px;
-
-    
   }
-  }
+}
