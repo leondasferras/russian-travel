@@ -1,6 +1,21 @@
+.footer__nav {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: 1fr;
+  gap: 18px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+
 @media screen and (max-width: 767px) {
   .footer__nav {
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+    gap: 32px;
+    padding-bottom: 48px;
+    
   }
 }
